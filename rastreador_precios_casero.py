@@ -40,3 +40,7 @@ if __name__ == "__main__":
 def xd(x):
     if x == 2:
         print("xd")
+
+
+#Yo se que estoy en tu corazon quizas en el fondoooo, otras babys me tiran nunca les respondo
+        
