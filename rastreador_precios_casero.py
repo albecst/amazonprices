@@ -39,14 +39,11 @@ def main():
     while(True):
         oldprice = readFile()
         newprice = getprice()
-        print(oldprice)
-        print(newprice)
         if i == 2:
             newprice = 50
         if float(newprice) < float(oldprice):
-            message = f"Su producto ha sido rebajado a {newprice} euros, cómpralo cabronazo \n URL: {URL}"
+            message = f"Su producto ha sido rebajado a {newprice} euros, compralo cabronazo \n URL: {URL}"
             message = message.encode('utf-8')
-
             mail.sendemail(message)
             writeFile(newprice)
             print("Mensaje mandado \n")
