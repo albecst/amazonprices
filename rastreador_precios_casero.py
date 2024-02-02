@@ -34,3 +34,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#uah uah
+def xd(x):
+    if x == 2:
+        print("xd")
