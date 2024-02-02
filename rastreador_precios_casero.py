@@ -9,7 +9,7 @@ def getprice():
     soup = BeautifulSoup(page.content, "lxml")
     price = soup.find(id = "corePriceDisplay_desktop_feature_div").get_text()
     price = price.replace(",",".")
-    price = price[6:12]
+    price = price[7:14]
     return price
 
 
@@ -43,4 +43,5 @@ def xd(x):
 
 
 #Yo se que estoy en tu corazon quizas en el fondoooo, otras babys me tiran nunca les respondo
-        
+#La vida da vueltas y el mundo es redondooo
+#jejeje
