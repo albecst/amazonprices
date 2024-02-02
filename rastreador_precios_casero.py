@@ -45,3 +45,8 @@ def xd(x):
 #Yo se que estoy en tu corazon quizas en el fondoooo, otras babys me tiran nunca les respondo
 #La vida da vueltas y el mundo es redondooo
 #jejeje
+
+#pipipipipopopopopo
+def xxx(y):
+    if y == 1:
+        print("uah uah uah uah uah")
