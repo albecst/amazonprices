@@ -42,6 +42,8 @@ def main():
         if float(newprice) < float(oldprice):
             message = f"Su producto ha sido rebajado a {newprice} euros, cómpralo cabronazo \n URL: {URL}"
             mail.sendemail(message)
+            writeFile(newprice)
+            print("Mensaje mandado \n")
         
         i += 1
         time.sleep(5)
