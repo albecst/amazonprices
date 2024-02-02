@@ -1,8 +1,8 @@
 import smtplib
 
 def sendemail(message):
-    email = "popotemerengote69@gmail.com"
-    password = "tfcjofbubaqunxuq"
+    email = "email_remitente"
+    password = "PASS"
     send_to_email = "albertocastilloac05@gmail.com"
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
